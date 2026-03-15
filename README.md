@@ -129,9 +129,7 @@ source venv/bin/activate       # Linux/Mac
 # Install dependencies
 pip install -r requirements.txt
 
-# Set your Gemini API key
-export GEMINI_API_KEY="your_gemini_api_key_here"
-# Windows: set GEMINI_API_KEY=your_gemini_api_key_here
+
 
 # Run the backend
 uvicorn main:app --reload
